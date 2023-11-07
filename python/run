@@ -1,0 +1,20 @@
+Python RMI
+
+install - pip install Pyro4
+
+new terminal
+python -m Pyro4.naming
+
+new terminal
+python server_rmi.py
+
+new terminal
+python client_rmi.py
+
+
+
+Web Service
+
+install - pip install flask
+run - python webservice.py
+http://localhost:5000/addition/6/13
